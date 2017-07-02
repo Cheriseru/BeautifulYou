@@ -1,4 +1,3 @@
-
 $ScriptFont : 'Pacifico', cursive;
 $SansFont : 'Open Sans', sans-serif;
 $LightestPink : #F3E3FC;
@@ -10,6 +9,13 @@ $Medium : 1.3em;
 
 body {
   color: $LightestPink;
+  text-align: center;
+
+  h1 {
+    font-family: $ScriptFont;
+    color : $DarkPink;
+    font-size: $Biggest;
+    }
 }
 
 /*header*/
@@ -23,25 +29,21 @@ header {
   background-color: $LightPink;
   top: 0;
   margin-bottom: 50px;
+  height: 100px;
 
     .logo-group{
       display: inline-flex;
-      padding: 10px 20px;
+      padding: 10px 50px;
 
         img {
           width: 60px;
           height: 84px;
         }
-        h1 {
-          font-family: $ScriptFont;
-          color : $DarkPink;
-          font-size: $Biggest;
-          }
       }
     nav {
       display: inline-flex;
       align-items: center;
-      width: 70%;
+      width: 800px;
 
         a {
           color: $DarkPink;
@@ -68,13 +70,14 @@ header {
 .ImageBanner {
   position: relative;
   align-content: center;
-  height: 700px;
+  height: 600px;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 
     .Images{
       width: 1600px;
@@ -120,13 +123,13 @@ header {
   display: block;
   width: 100%;
   background-color: $LightPink;
-  padding: 2% 0%;
+  padding: 10px;
 
   .IntroText {
     font-family: $SansFont;
     text-align: center;
     position: relative;
     width: 100%;
-    line-height: 2;
+    line-height: 1.8;
   }
 }
