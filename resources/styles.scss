@@ -67,7 +67,6 @@ header {
 
 .ImageBanner {
   position: relative;
-
   align-content: center;
   height: 700px;
   width: 100%;
@@ -79,7 +78,6 @@ header {
 
     .Images{
       width: 1600px;
-
     }
 
     .MainImage {
@@ -108,7 +106,7 @@ header {
       padding: 3% 10%;
 
       &:hover {
-        transform: scale(1.5);
+        transform: scale(1.3);
         transition: 1s ease;
       }
   }
