@@ -14,7 +14,8 @@ header {
     display: inline-flex;
     padding: 10px 20px; }
     header .logo-group img {
-      width: 60px; }
+      width: 60px;
+      height: 84px; }
     header .logo-group h1 {
       font-family: "Pacifico", cursive;
       color: #5B1C7E;
@@ -59,7 +60,8 @@ header {
     padding: 2%; }
     .ImageBanner .SideImages img {
       display: inline-flex;
-      width: 35%;
+      width: 200px;
+      height: 180px;
       align-content: center;
       padding: 3% 10%; }
       .ImageBanner .SideImages img:hover {

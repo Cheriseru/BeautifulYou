@@ -29,6 +29,7 @@ header {
 
         img {
           width: 60px;
+          height: 84px;
         }
         h1 {
           font-family: $ScriptFont;
@@ -89,7 +90,8 @@ header {
 
     img{
       display: inline-flex;
-      width: 35%;
+      width: 200px;
+      height : 180px;
       align-content: center;
       padding: 3% 10%;
 
