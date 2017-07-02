@@ -9,7 +9,8 @@ header {
   width: 100%;
   justify-content: space-between;
   background-color: #C391DF;
-  top: 0; }
+  top: 0;
+  margin-bottom: 50px; }
   header .logo-group {
     display: inline-flex;
     padding: 10px 20px; }
@@ -41,18 +42,25 @@ header {
 
 /*Image banner */
 .ImageBanner {
-  display: inline-flex;
-  padding: 2% 10%;
   position: relative;
-  top: 100px;
+  align-content: center;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center; }
+  .ImageBanner .Images {
+    width: 1600px; }
   .ImageBanner .MainImage {
-    width: 50%;
-    overflow: hidden; }
+    width: 700px;
+    overflow: hidden;
+    margin: 50px; }
     .ImageBanner .MainImage img {
-      width: 100%; }
+      width: 600px; }
   .ImageBanner .Side {
-    width: 50%;
+    width: 700px;
     align-content: center; }
   .ImageBanner .SideImages {
     display: flex;
