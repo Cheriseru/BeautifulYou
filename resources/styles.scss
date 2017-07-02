@@ -1,0 +1,120 @@
+
+$ScriptFont : 'Pacifico', cursive;
+$SansFont : 'Open Sans', sans-serif;
+$LightestPink : #F3E3FC;
+$LightPink : #C391DF;
+$MediumPink : #A467C5;
+$DarkPink : #5B1C7E;
+$Biggest : 2em;
+$Medium : 1.3em;
+
+body {
+  color: $LightestPink;
+}
+
+/*header*/
+
+header {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+  background-color: $LightPink;
+  top: 0;
+
+    .logo-group{
+      display: inline-flex;
+      padding: 10px 20px;
+
+        img {
+          width: 60px;
+        }
+        h1 {
+          font-family: $ScriptFont;
+          color : $DarkPink;
+          font-size: $Biggest;
+          }
+      }
+    nav {
+      display: inline-flex;
+      align-items: center;
+      width: 70%;
+
+        a {
+          color: $DarkPink;
+          font-size: $Medium;
+          font-family: $SansFont;
+          padding: 20px;
+          text-decoration: none;
+          align-items: center;
+          display: block;
+
+          &:hover {
+            background-color: $DarkPink;
+            color: $LightPink;
+            border-radius: 20px;
+            transition: background-color 0.15s linear 0.05s;
+            transition: color 0.15s linear 0.01s;
+          }
+        }
+    }
+  }
+
+/*Image banner */
+
+.ImageBanner {
+  display: inline-flex;
+  padding: 2% 10%;
+  position: relative;
+  top: 100px;
+  align-items: center;
+
+    .MainImage {
+      width: 50%;
+      overflow: hidden;
+
+      img{
+        width: 100%;
+    }
+  }
+.Side {
+  width: 50%;
+  align-content: center;
+}
+  .SideImages {
+    display: flex;
+    align-content: center;
+    padding: 2%;
+
+    img{
+      display: inline-flex;
+      width: 35%;
+      align-content: center;
+      padding: 3% 10%;
+
+      &:hover {
+        transform: scale(1.5);
+        transition: 1s ease;
+      }
+  }
+}
+}
+
+/*intro*/
+
+.intro {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: $LightPink;
+  padding: 2% 0%;
+
+  .IntroText {
+    font-family: $SansFont;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    line-height: 2;
+  }
+}

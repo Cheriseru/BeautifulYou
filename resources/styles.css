@@ -1,0 +1,83 @@
+body {
+  color: #F3E3FC; }
+
+/*header*/
+header {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #C391DF;
+  top: 0; }
+  header .logo-group {
+    display: inline-flex;
+    padding: 10px 20px; }
+    header .logo-group img {
+      width: 60px; }
+    header .logo-group h1 {
+      font-family: "Pacifico", cursive;
+      color: #5B1C7E;
+      font-size: 2em; }
+  header nav {
+    display: inline-flex;
+    align-items: center;
+    width: 70%; }
+    header nav a {
+      color: #5B1C7E;
+      font-size: 1.3em;
+      font-family: "Open Sans", sans-serif;
+      padding: 20px;
+      text-decoration: none;
+      align-items: center;
+      display: block; }
+      header nav a:hover {
+        background-color: #5B1C7E;
+        color: #C391DF;
+        border-radius: 20px;
+        transition: background-color 0.15s linear 0.05s;
+        transition: color 0.15s linear 0.01s; }
+
+/*Image banner */
+.ImageBanner {
+  display: inline-flex;
+  padding: 2% 10%;
+  position: relative;
+  top: 100px;
+  align-items: center; }
+  .ImageBanner .MainImage {
+    width: 50%;
+    overflow: hidden; }
+    .ImageBanner .MainImage img {
+      width: 100%; }
+  .ImageBanner .Side {
+    width: 50%;
+    align-content: center; }
+  .ImageBanner .SideImages {
+    display: flex;
+    align-content: center;
+    padding: 2%; }
+    .ImageBanner .SideImages img {
+      display: inline-flex;
+      width: 35%;
+      align-content: center;
+      padding: 3% 10%; }
+      .ImageBanner .SideImages img:hover {
+        transform: scale(1.5);
+        transition: 1s ease; }
+
+/*intro*/
+.intro {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #C391DF;
+  padding: 2% 0%; }
+  .intro .IntroText {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    line-height: 2; }
+
+/*# sourceMappingURL=styles.css.map */
